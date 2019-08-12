@@ -1,0 +1,46 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card-login {
+    flex-direction: row;
+    height: 70%;
+    width: 85%;
+    border: none;
+}
+
+.card-login-header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    font-size: 52px;
+    background-color: #17a2b8;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card-login-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+}
+
+.btn {
+    width: 100px;
+}
+
+@media only screen and (max-width: 780px) {
+    .card {
+        flex-direction: column;
+    }
+    .card-header {
+        max-width: 100% !important;
+    }
+  }

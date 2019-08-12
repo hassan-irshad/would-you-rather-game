@@ -1,0 +1,9 @@
+.list-box {
+    width: 50%;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 991px) {
+    .list-box {
+        width: 80%;
+    }
+   }
