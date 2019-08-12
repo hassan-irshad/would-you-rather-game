@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div> 
-        <Router>
+        <Router basename="/would-you-rather-game">
               <PrivateRoute path="/" exact component={ Home }/> 
               <PrivateRoute path="/add" component={ QuestionForm }/>
               <PrivateRoute path="/leaderboard" component={ Leaderboard }/>
